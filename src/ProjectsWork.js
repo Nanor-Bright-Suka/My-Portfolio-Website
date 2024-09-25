@@ -2,7 +2,7 @@
      import Expense_Tracker from "../src/assets/Expense_Tracker.png"
         import Gemini_Clone from "../src/assets/Gemini _Clone.png"
         import Hangman_Game from "../src/assets/Hangman_Game.png"
-
+        import Portfolio from "../src/assets/Portfolio.png"
 export  const ProjectWork = [
     {
         title: "Budget App",
@@ -27,5 +27,12 @@ export  const ProjectWork = [
         technologies:["React.js","Tailwind"],
         site: "https://nanorgeminiapp.netlify.app/",
         sourceCode: "https://github.com/Nanor-Bright-Suka/Gemini-Clone"
+    },
+    {
+        title: "Portfolio Website",
+        image: Portfolio,
+        description: "A portfolio website to showcase my skills",
+        site: "https://nanorportfolio.netlify.app/",
+        sourceCode: "https://github.com/Nanor-Bright-Suka/My-Portfolio-Website"
     }
 ]
