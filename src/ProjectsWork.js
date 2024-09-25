@@ -32,6 +32,7 @@ export  const ProjectWork = [
         title: "Portfolio Website",
         image: Portfolio,
         description: "A portfolio website to showcase my skills",
+        technologies:["React.js","Tailwind"],
         site: "https://nanorportfolio.netlify.app/",
         sourceCode: "https://github.com/Nanor-Bright-Suka/My-Portfolio-Website"
     }
