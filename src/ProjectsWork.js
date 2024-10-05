@@ -1,21 +1,21 @@
 
      import Expense_Tracker from "../src/assets/Expense_Tracker.png"
-        import Gemini_Clone from "../src/assets/Gemini _Clone.png"
+        import Gemini_Clone from "../src/assets/Gemini.png"
         import Hangman_Game from "../src/assets/Hangman_Game.png"
         import Portfolio from "../src/assets/Portfolio.png"
 export  const ProjectWork = [
     {
         title: "Budget App",
         image: Expense_Tracker,
-        description: "An App That helps users create their budget with related expenses",
+        description: "A fully responsive budget tracker that allows users to add and track their expenses. Developed using React and Tailwind CSS. Integrated local storage to persist user data across sessions.",
         technologies:["React.js","Tailwind"],
-        site:"https://nanorbudgetapp.netlify.app/",
+        site:"https://budget-app-phi-two.vercel.app/",
         sourceCode: "https://github.com/Nanor-Bright-Suka/Budget-App"
     },
     {
         title: "Hangman Game",
         image: Hangman_Game,
-        description: "The game will guess a word, the hangman is fully drawn when you are not able to guess the right words as you attempt to, but when you guess the right word, you win ",
+        description: "Built an interactive hangman game using React and TypeScript. Implemented state management for game logic and ensured full responsiveness for mobile and desktop devices. ",
         technologies:["React.js","Tailwind","Typescript"],
         site:"https://nanorhangmangame.netlify.app/",
         sourceCode: "https://github.com/Nanor-Bright-Suka/Hangman-Game"
@@ -23,7 +23,7 @@ export  const ProjectWork = [
     {
         title: "Gemini Clone",
         image: Gemini_Clone,
-        description: "A gemini clone that receives input and provides response to the user",
+        description: "A clone of Google's Gemini app. Developed the front end with React, implementing fully responsive design using Tailwind CSS.",
         technologies:["React.js","Tailwind"],
         site: "https://nanorgeminiapp.netlify.app/",
         sourceCode: "https://github.com/Nanor-Bright-Suka/Gemini-Clone"
