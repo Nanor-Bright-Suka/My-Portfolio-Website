@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
-import { SiJavascript, SiTailwindcss, SiTypescript } from 'react-icons/si' 
+import { SiJavascript, SiNextdotjs, SiTailwindcss, SiTypescript } from 'react-icons/si' 
 export default function Technologies() {
   return (
     <div>
@@ -19,6 +19,9 @@ export default function Technologies() {
             </div>
             <div className='border-neutral-800'>
               <SiTypescript  className='text-blue-400 text-7xl bg-white rounded-md text-center ' />
+            </div>
+            <div className='border-neutral-800'>
+              <SiNextdotjs  className='text-white text-7xl bg-neutral-800 rounded-md text-center ' />
             </div>
       </div>
     </div>

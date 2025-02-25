@@ -2,8 +2,16 @@
      import Expense_Tracker from "../src/assets/Expense_Tracker.png"
         import Gemini_Clone from "../src/assets/Gemini.png"
         import Hangman_Game from "../src/assets/Hangman_Game.png"
-        import Portfolio from "../src/assets/Portfolio.png"
-export  const ProjectWork = [
+        import Coca_Cola from "../src/assets/Coca_Cola.png"
+export const ProjectWork = [
+    {
+        title: "Coca-Cola Website",
+        image: Coca_Cola,
+        description: "A fully responsive Coca-cola website. Developed using Next js and Tailwind CSS and Typescript",
+        technologies:["Next js","Tailwind","Next Js"],
+        site:"https://coca-cola-app-cyan.vercel.app/",
+        sourceCode: "https://github.com/Nanor-Bright-Suka/Coca-Cola-App"  
+    },
     {
         title: "Budget App",
         image: Expense_Tracker,
@@ -12,6 +20,7 @@ export  const ProjectWork = [
         site:"https://budget-app-phi-two.vercel.app/",
         sourceCode: "https://github.com/Nanor-Bright-Suka/Budget-App"
     },
+
     {
         title: "Hangman Game",
         image: Hangman_Game,
@@ -20,6 +29,7 @@ export  const ProjectWork = [
         site:"https://nanorhangmangame.netlify.app/",
         sourceCode: "https://github.com/Nanor-Bright-Suka/Hangman-Game"
     },
+
     {
         title: "Gemini Clone",
         image: Gemini_Clone,
@@ -28,12 +38,5 @@ export  const ProjectWork = [
         site: "https://nanorgeminiapp.netlify.app/",
         sourceCode: "https://github.com/Nanor-Bright-Suka/Gemini-Clone"
     },
-    {
-        title: "Portfolio Website",
-        image: Portfolio,
-        description: "A portfolio website to showcase my skills",
-        technologies:["React.js","Tailwind"],
-        site: "https://nanorportfolio.netlify.app/",
-        sourceCode: "https://github.com/Nanor-Bright-Suka/My-Portfolio-Website"
-    }
+   
 ]
