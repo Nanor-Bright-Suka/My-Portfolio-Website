@@ -16,8 +16,8 @@ const Projects = () => {
            </a>
           </div>
           <div className="mt-10 flex justify-center flex-col items-center">
-          <h5 className="text-5xl mb-4">{project.title}</h5>
-          <p className="max-w-sm text-2xl">{project.description}</p>
+          <h5 className="text-4xl mb-4 text-center">{project.title}</h5>
+          <p className="max-w-screen-sm text-2xl text-center">{project.description}</p>
           <div className="flex gap-3">  
           <a href={project.site}>
           <p className="py-1 px-2 m-3 bg-black text-white rounded-sm">View Site</p>

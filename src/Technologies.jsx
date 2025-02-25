@@ -7,7 +7,7 @@ export default function Technologies() {
       <h2 className='text-center text-5xl my-10'>
         Technologies
       </h2>
-      <div className='flex justify-center items-center gap-10 '>
+      <div className='flex justify-around items-center gap-10 flex-wrap'>
             <div className='border-neutral-800'>
               <RiReactjsLine  className='text-cyan-300 text-7xl bg-neutral-800 rounded-md' />
             </div>
